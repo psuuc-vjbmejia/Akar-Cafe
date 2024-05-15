@@ -7,6 +7,9 @@
 body {
     zoom: 90%;
 }
+body .contact{
+    zoom: 100%;
+}
 .menu {
     background-color: #b66f2d;
     font-family: "Baloo 2", cursive
@@ -213,7 +216,7 @@ body {
 .home .main-area .section-area .section-C {
     padding: 3rem 0;
     color: white;
-    background: #707070
+    background: #a36429
 }
 
 .home .main-area .section-area .box-img img {
@@ -229,7 +232,7 @@ body {
 }
 
 .home footer {
-    background-color: #707070
+    background-color: #a36429
 }
 
 .services {
@@ -408,7 +411,7 @@ body {
         z-index: 2;
         width: 100%;
         padding: 1rem;
-        background: #db8637;
+        background: #B66F2D;
         transition: all 0.5s ease-in-out
     }
 
