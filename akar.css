@@ -4,6 +4,9 @@
     margin: 0
 }
 
+body {
+    zoom: 90%; /* This will zoom out the entire website to 80% */
+}
 .menu {
     background-color: #b66f2d;
     font-family: "Baloo 2", cursive
@@ -160,22 +163,27 @@
 }
 
 .home .pic-area .btn-order {
+    width: 150px;
+    height: 100px;
+    border: 0;
+    color: #FFFDD0;
+    font-weight: bold;
     cursor: pointer;
-    font-family: "Baloo 2", cursive;
+    font-family: "Baloo 2"  ,cursive;
     text-decoration: none;
     outline: none;
     padding: 0.5rem;
     margin: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
-    background: #b66f2d;
-    border: 1px solid #151515; 
+    background-color: transparent;
+    background-image: url('icons8-coffee-beans-100.png');
+    background-position: center;
+    background-repeat: no-repeat;
     transition: all 0.5s ease-in-out
 }
 
-.home .pic-area .btn-order:hover {
-    background: #db8637
-}
+
 
 .home .main-area h1 {
     font-size: 2rem;
@@ -420,7 +428,7 @@
     }
 
     .nav .menu-nav__link {
-        font-size: 1.5rem
+        font-size: 1.8rem
     }
 
     .nav .logo {
@@ -455,10 +463,6 @@
         color: blueviolet 
     }
 
-    .cart,.one__view,.two__view,.three__view,.four__view,.five__view,.six__view,.seven__view,.eight__view,.nine__view,.ten__view,.eleven__view,.twelve__view {
-        width: 30vw;
-        min-width: 450px
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -802,34 +806,7 @@ header .one1-cart-item .remove-item-1,header .one1-cart-item .remove-item-2,head
     transition: all 0.5s ease-in-out
 }
 
-header .one1-cart-item .remove-item-1:hover,header .one1-cart-item .remove-item-2:hover,header .one1-cart-item .remove-item-3:hover,header .one1-cart-item .remove-item-4:hover,header .one1-cart-item .remove-item-5:hover,header .one1-cart-item .remove-item-6:hover,header .one1-cart-item .remove-item-7:hover,header .one1-cart-item .remove-item-8:hover,header .one1-cart-item .remove-item-9:hover,header .one1-cart-item .remove-item-10:hover,header .one1-cart-item .remove-item-11:hover,header .one1-cart-item .remove-item-12:hover,header .two2-cart-item .remove-item-1:hover,header .two2-cart-item .remove-item-2:hover,header .two2-cart-item .remove-item-3:hover,header .two2-cart-item .remove-item-4:hover,header .two2-cart-item .remove-item-5:hover,header .two2-cart-item .remove-item-6:hover,header .two2-cart-item .remove-item-7:hover,header .two2-cart-item .remove-item-8:hover,header .two2-cart-item .remove-item-9:hover,header .two2-cart-item .remove-item-10:hover,header .two2-cart-item .remove-item-11:hover,header .two2-cart-item .remove-item-12:hover,header .three3-cart-item .remove-item-1:hover,header .three3-cart-item .remove-item-2:hover,header .three3-cart-item .remove-item-3:hover,header .three3-cart-item .remove-item-4:hover,header .three3-cart-item .remove-item-5:hover,header .three3-cart-item .remove-item-6:hover,header .three3-cart-item .remove-item-7:hover,header .three3-cart-item .remove-item-8:hover,header .three3-cart-item .remove-item-9:hover,header .three3-cart-item .remove-item-10:hover,header .three3-cart-item .remove-item-11:hover,header .three3-cart-item .remove-item-12:hover,header .four4-cart-item .remove-item-1:hover,header .four4-cart-item .remove-item-2:hover,header .four4-cart-item .remove-item-3:hover,header .four4-cart-item .remove-item-4:hover,header .four4-cart-item .remove-item-5:hover,header .four4-cart-item .remove-item-6:hover,header .four4-cart-item .remove-item-7:hover,header .four4-cart-item .remove-item-8:hover,header .four4-cart-item .remove-item-9:hover,header .four4-cart-item .remove-item-10:hover,header .four4-cart-item .remove-item-11:hover,header .four4-cart-item .remove-item-12:hover,header .five5-cart-item .remove-item-1:hover,header .five5-cart-item .remove-item-2:hover,header .five5-cart-item .remove-item-3:hover,header .five5-cart-item .remove-item-4:hover,header .five5-cart-item .remove-item-5:hover,header .five5-cart-item .remove-item-6:hover,header .five5-cart-item .remove-item-7:hover,header .five5-cart-item .remove-item-8:hover,header .five5-cart-item .remove-item-9:hover,header .five5-cart-item .remove-item-10:hover,header .five5-cart-item .remove-item-11:hover,header .five5-cart-item .remove-item-12:hover,header .six6-cart-item .remove-item-1:hover,header .six6-cart-item .remove-item-2:hover,header .six6-cart-item .remove-item-3:hover,header .six6-cart-item .remove-item-4:hover,header .six6-cart-item .remove-item-5:hover,header .six6-cart-item .remove-item-6:hover,header .six6-cart-item .remove-item-7:hover,header .six6-cart-item .remove-item-8:hover,header .six6-cart-item .remove-item-9:hover,header .six6-cart-item .remove-item-10:hover,header .six6-cart-item .remove-item-11:hover,header .six6-cart-item .remove-item-12:hover,header .seven7-cart-item .remove-item-1:hover,header .seven7-cart-item .remove-item-2:hover,header .seven7-cart-item .remove-item-3:hover,header .seven7-cart-item .remove-item-4:hover,header .seven7-cart-item .remove-item-5:hover,header .seven7-cart-item .remove-item-6:hover,header .seven7-cart-item .remove-item-7:hover,header .seven7-cart-item .remove-item-8:hover,header .seven7-cart-item .remove-item-9:hover,header .seven7-cart-item .remove-item-10:hover,header .seven7-cart-item .remove-item-11:hover,header .seven7-cart-item .remove-item-12:hover,header .eight8-cart-item .remove-item-1:hover,header .eight8-cart-item .remove-item-2:hover,header .eight8-cart-item .remove-item-3:hover,header .eight8-cart-item .remove-item-4:hover,header .eight8-cart-item .remove-item-5:hover,header .eight8-cart-item .remove-item-6:hover,header .eight8-cart-item .remove-item-7:hover,header .eight8-cart-item .remove-item-8:hover,header .eight8-cart-item .remove-item-9:hover,header .eight8-cart-item .remove-item-10:hover,header .eight8-cart-item .remove-item-11:hover,header .eight8-cart-item .remove-item-12:hover,header .nine9-cart-item .remove-item-1:hover,header .nine9-cart-item .remove-item-2:hover,header .nine9-cart-item .remove-item-3:hover,header .nine9-cart-item .remove-item-4:hover,header .nine9-cart-item .remove-item-5:hover,header .nine9-cart-item .remove-item-6:hover,header .nine9-cart-item .remove-item-7:hover,header .nine9-cart-item .remove-item-8:hover,header .nine9-cart-item .remove-item-9:hover,header .nine9-cart-item .remove-item-10:hover,header .nine9-cart-item .remove-item-11:hover,header .nine9-cart-item .remove-item-12:hover,header .ten10-cart-item .remove-item-1:hover,header .ten10-cart-item .remove-item-2:hover,header .ten10-cart-item .remove-item-3:hover,header .ten10-cart-item .remove-item-4:hover,header .ten10-cart-item .remove-item-5:hover,header .ten10-cart-item .remove-item-6:hover,header .ten10-cart-item .remove-item-7:hover,header .ten10-cart-item .remove-item-8:hover,header .ten10-cart-item .remove-item-9:hover,header .ten10-cart-item .remove-item-10:hover,header .ten10-cart-item .remove-item-11:hover,header .ten10-cart-item .remove-item-12:hover,header .eleven11-cart-item .remove-item-1:hover,header .eleven11-cart-item .remove-item-2:hover,header .eleven11-cart-item .remove-item-3:hover,header .eleven11-cart-item .remove-item-4:hover,header .eleven11-cart-item .remove-item-5:hover,header .eleven11-cart-item .remove-item-6:hover,header .eleven11-cart-item .remove-item-7:hover,header .eleven11-cart-item .remove-item-8:hover,header .eleven11-cart-item .remove-item-9:hover,header .eleven11-cart-item .remove-item-10:hover,header .eleven11-cart-item .remove-item-11:hover,header .eleven11-cart-item .remove-item-12:hover,header .twelve12-cart-item .remove-item-1:hover,header .twelve12-cart-item .remove-item-2:hover,header .twelve12-cart-item .remove-item-3:hover,header .twelve12-cart-item .remove-item-4:hover,header .twelve12-cart-item .remove-item-5:hover,header .twelve12-cart-item .remove-item-6:hover,header .twelve12-cart-item .remove-item-7:hover,header .twelve12-cart-item .remove-item-8:hover,header .twelve12-cart-item .remove-item-9:hover,header .twelve12-cart-item .remove-item-10:hover,header .twelve12-cart-item .remove-item-11:hover,header .twelve12-cart-item .remove-item-12:hover {
-    color: #e0e0e0
-}
 
-header .one1-cart-item .fa-chevron-up,header .one1-cart-item .fa-chevron-down,header .two2-cart-item .fa-chevron-up,header .two2-cart-item .fa-chevron-down,header .three3-cart-item .fa-chevron-up,header .three3-cart-item .fa-chevron-down,header .four4-cart-item .fa-chevron-up,header .four4-cart-item .fa-chevron-down,header .five5-cart-item .fa-chevron-up,header .five5-cart-item .fa-chevron-down,header .six6-cart-item .fa-chevron-up,header .six6-cart-item .fa-chevron-down,header .seven7-cart-item .fa-chevron-up,header .seven7-cart-item .fa-chevron-down,header .eight8-cart-item .fa-chevron-up,header .eight8-cart-item .fa-chevron-down,header .nine9-cart-item .fa-chevron-up,header .nine9-cart-item .fa-chevron-down,header .ten10-cart-item .fa-chevron-up,header .ten10-cart-item .fa-chevron-down,header .eleven11-cart-item .fa-chevron-up,header .eleven11-cart-item .fa-chevron-down,header .twelve12-cart-item .fa-chevron-up,header .twelve12-cart-item .fa-chevron-down {
-    color: #b66f2d;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out
-}
-
-header .one1-cart-item .fa-chevron-up:hover,header .one1-cart-item .fa-chevron-down:hover,header .two2-cart-item .fa-chevron-up:hover,header .two2-cart-item .fa-chevron-down:hover,header .three3-cart-item .fa-chevron-up:hover,header .three3-cart-item .fa-chevron-down:hover,header .four4-cart-item .fa-chevron-up:hover,header .four4-cart-item .fa-chevron-down:hover,header .five5-cart-item .fa-chevron-up:hover,header .five5-cart-item .fa-chevron-down:hover,header .six6-cart-item .fa-chevron-up:hover,header .six6-cart-item .fa-chevron-down:hover,header .seven7-cart-item .fa-chevron-up:hover,header .seven7-cart-item .fa-chevron-down:hover,header .eight8-cart-item .fa-chevron-up:hover,header .eight8-cart-item .fa-chevron-down:hover,header .nine9-cart-item .fa-chevron-up:hover,header .nine9-cart-item .fa-chevron-down:hover,header .ten10-cart-item .fa-chevron-up:hover,header .ten10-cart-item .fa-chevron-down:hover,header .eleven11-cart-item .fa-chevron-up:hover,header .eleven11-cart-item .fa-chevron-down:hover,header .twelve12-cart-item .fa-chevron-up:hover,header .twelve12-cart-item .fa-chevron-down:hover {
-    color: #db8637
-}
-
-header .one__view__openBtn,header .one__view__closeBtn,header .two__view__openBtn,header .two__view__closeBtn,header .three__view__openBtn,header .three__view__closeBtn,header .four__view__openBtn,header .four__view__closeBtn,header .five__view__openBtn,header .five__view__closeBtn,header .six__view__openBtn,header .six__view__closeBtn,header .seven__view__openBtn,header .seven__view__closeBtn,header .eight__view__openBtn,header .eight__view__closeBtn,header .nine__view__openBtn,header .nine__view__closeBtn,header .ten__view__openBtn,header .ten__view__closeBtn,header .eleven__view__openBtn,header .eleven__view__closeBtn,header .twelve__view__openBtn,header .twelve__view__closeBtn {
-    cursor: pointer
-}
-
-header .one__view__closeBtn,header .two__view__closeBtn,header .three__view__closeBtn,header .four__view__closeBtn,header .five__view__closeBtn,header .six__view__closeBtn,header .seven__view__closeBtn,header .eight__view__closeBtn,header .nine__view__closeBtn,header .ten__view__closeBtn,header .eleven__view__closeBtn,header .twelve__view__closeBtn {
-    position: fixed;
-    right: 5%;
-    font-size: 1.5rem;
-    transition: all 0.5s ease-in-out
-}
-
-header .one__view__closeBtn:hover,header .two__view__closeBtn:hover,header .three__view__closeBtn:hover,header .four__view__closeBtn:hover,header .five__view__closeBtn:hover,header .six__view__closeBtn:hover,header .seven__view__closeBtn:hover,header .eight__view__closeBtn:hover,header .nine__view__closeBtn:hover,header .ten__view__closeBtn:hover,header .eleven__view__closeBtn:hover,header .twelve__view__closeBtn:hover {
-    color: #b66f2d
-}
 
 header .one__view-overlay,header .two__view-overlay,header .three__view-overlay,header .four__view-overlay,header .five__view-overlay,header .six__view-overlay,header .seven__view-overlay,header .eight__view-overlay,header .nine__view-overlay,header .ten__view-overlay,header .eleven__view-overlay,header .twelve__view-overlay {
     position: fixed;
@@ -922,17 +899,20 @@ header .ingredients h2,header .allergens h2 {
 }
 
 .logo-first {
-    color: #707070;
-    text-shadow: -1px -1px 0 #fff,1px -1px 0 #252525,-1px 1px 0 #252525,1px 1px 0 #252525
+    color: black;
+    text-shadow: -1px -1px 0 #fff,1px -1px 0 #252525,-1px 1px 0 #252525,1px 1px 0 #252525;
+    font-size: xx-large;
 }
 
 .logo-last {
     color: #b66f2d;
-    text-shadow: -1px -1px 0 #fff,1px -1px 0 #252525,-1px 1px 0 #252525,1px 1px 0 #252525
+    text-shadow: -1px -1px 0 #fff,1px -1px 0 #252525,-1px 1px 0 #252525,1px 1px 0 #252525;
+    font-size: xx-large;
 }
 
 footer {
-    font-family: "Baloo 2", cursive
+    font-family: "Baloo 2", cursive;
+    background-color: #B66F2D;
 }
 
 footer .icons {
