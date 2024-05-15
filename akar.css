@@ -169,7 +169,7 @@
     font-size: 1rem;
     letter-spacing: 1px;
     background: #b66f2d;
-    border: 1px solid #151515;
+    border: 1px solid #151515; 
     transition: all 0.5s ease-in-out
 }
 
@@ -400,7 +400,7 @@
         z-index: 2;
         width: 100%;
         padding: 1rem;
-        background: #151515;
+        background: #db8637;
         transition: all 0.5s ease-in-out
     }
 
@@ -452,7 +452,7 @@
     }
 
     .nav a:hover {
-        color: #b66f2d
+        color: blueviolet 
     }
 
     .cart,.one__view,.two__view,.three__view,.four__view,.five__view,.six__view,.seven__view,.eight__view,.nine__view,.ten__view,.eleven__view,.twelve__view {
@@ -740,7 +740,7 @@ header .nav img {
 }
 
 header .nav .menu-nav__item.active>a {
-    color: #b66f2d
+    color: black
 }
 
 
