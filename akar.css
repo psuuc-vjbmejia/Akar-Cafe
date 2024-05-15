@@ -5,7 +5,7 @@
 }
 
 body {
-    zoom: 90%; /* This will zoom out the entire website to 80% */
+    zoom: 90%;
 }
 .menu {
     background-color: #b66f2d;
@@ -321,7 +321,7 @@ body {
 }
 
 .contact .pic-area {
-    height: 100vh;
+    height: 100%;
     padding-top: 35vh;
     overflow: hidden;
     align-items: center;
@@ -768,82 +768,7 @@ header .total {
     font-size: 1.5rem
 }
 
-header .one1-cart-item,header .two2-cart-item,header .three3-cart-item,header .four4-cart-item,header .five5-cart-item,header .six6-cart-item,header .seven7-cart-item,header .eight8-cart-item,header .nine9-cart-item,header .ten10-cart-item,header .eleven11-cart-item,header .twelve12-cart-item {
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto 1fr auto;
-    grid-column-gap: 1.5rem;
-    margin: 1.5rem 0;
-    text-align: left;
-    color: #e0e0e0
-}
 
-header .one1-cart-item img,header .two2-cart-item img,header .three3-cart-item img,header .four4-cart-item img,header .five5-cart-item img,header .six6-cart-item img,header .seven7-cart-item img,header .eight8-cart-item img,header .nine9-cart-item img,header .ten10-cart-item img,header .eleven11-cart-item img,header .twelve12-cart-item img {
-    width: 125px;
-    height: 125px;
-    border-radius: 4rem;
-    padding: 0;
-    margin: 5%;
-    border: 5px solid #b66f2d
-}
-
-header .one1-cart-item h3,header .two2-cart-item h3,header .three3-cart-item h3,header .four4-cart-item h3,header .five5-cart-item h3,header .six6-cart-item h3,header .seven7-cart-item h3,header .eight8-cart-item h3,header .nine9-cart-item h3,header .ten10-cart-item h3,header .eleven11-cart-item h3,header .twelve12-cart-item h3 {
-    font-size: 1.25rem
-}
-
-header .one1-cart-item h4,header .two2-cart-item h4,header .three3-cart-item h4,header .four4-cart-item h4,header .five5-cart-item h4,header .six6-cart-item h4,header .seven7-cart-item h4,header .eight8-cart-item h4,header .nine9-cart-item h4,header .ten10-cart-item h4,header .eleven11-cart-item h4,header .twelve12-cart-item h4 {
-    font-size: 1.125rem;
-    margin: 0.25rem 0
-}
-
-header .one1-cart-item .item-amount1,header .one1-cart-item .item-amount2,header .one1-cart-item .item-amount3,header .one1-cart-item .item-amount4,header .one1-cart-item .item-amount5,header .one1-cart-item .item-amount6,header .one1-cart-item .item-amount7,header .one1-cart-item .item-amount8,header .one1-cart-item .item-amount9,header .one1-cart-item .item-amount10,header .one1-cart-item .item-amount11,header .one1-cart-item .item-amount12,header .two2-cart-item .item-amount1,header .two2-cart-item .item-amount2,header .two2-cart-item .item-amount3,header .two2-cart-item .item-amount4,header .two2-cart-item .item-amount5,header .two2-cart-item .item-amount6,header .two2-cart-item .item-amount7,header .two2-cart-item .item-amount8,header .two2-cart-item .item-amount9,header .two2-cart-item .item-amount10,header .two2-cart-item .item-amount11,header .two2-cart-item .item-amount12,header .three3-cart-item .item-amount1,header .three3-cart-item .item-amount2,header .three3-cart-item .item-amount3,header .three3-cart-item .item-amount4,header .three3-cart-item .item-amount5,header .three3-cart-item .item-amount6,header .three3-cart-item .item-amount7,header .three3-cart-item .item-amount8,header .three3-cart-item .item-amount9,header .three3-cart-item .item-amount10,header .three3-cart-item .item-amount11,header .three3-cart-item .item-amount12,header .four4-cart-item .item-amount1,header .four4-cart-item .item-amount2,header .four4-cart-item .item-amount3,header .four4-cart-item .item-amount4,header .four4-cart-item .item-amount5,header .four4-cart-item .item-amount6,header .four4-cart-item .item-amount7,header .four4-cart-item .item-amount8,header .four4-cart-item .item-amount9,header .four4-cart-item .item-amount10,header .four4-cart-item .item-amount11,header .four4-cart-item .item-amount12,header .five5-cart-item .item-amount1,header .five5-cart-item .item-amount2,header .five5-cart-item .item-amount3,header .five5-cart-item .item-amount4,header .five5-cart-item .item-amount5,header .five5-cart-item .item-amount6,header .five5-cart-item .item-amount7,header .five5-cart-item .item-amount8,header .five5-cart-item .item-amount9,header .five5-cart-item .item-amount10,header .five5-cart-item .item-amount11,header .five5-cart-item .item-amount12,header .six6-cart-item .item-amount1,header .six6-cart-item .item-amount2,header .six6-cart-item .item-amount3,header .six6-cart-item .item-amount4,header .six6-cart-item .item-amount5,header .six6-cart-item .item-amount6,header .six6-cart-item .item-amount7,header .six6-cart-item .item-amount8,header .six6-cart-item .item-amount9,header .six6-cart-item .item-amount10,header .six6-cart-item .item-amount11,header .six6-cart-item .item-amount12,header .seven7-cart-item .item-amount1,header .seven7-cart-item .item-amount2,header .seven7-cart-item .item-amount3,header .seven7-cart-item .item-amount4,header .seven7-cart-item .item-amount5,header .seven7-cart-item .item-amount6,header .seven7-cart-item .item-amount7,header .seven7-cart-item .item-amount8,header .seven7-cart-item .item-amount9,header .seven7-cart-item .item-amount10,header .seven7-cart-item .item-amount11,header .seven7-cart-item .item-amount12,header .eight8-cart-item .item-amount1,header .eight8-cart-item .item-amount2,header .eight8-cart-item .item-amount3,header .eight8-cart-item .item-amount4,header .eight8-cart-item .item-amount5,header .eight8-cart-item .item-amount6,header .eight8-cart-item .item-amount7,header .eight8-cart-item .item-amount8,header .eight8-cart-item .item-amount9,header .eight8-cart-item .item-amount10,header .eight8-cart-item .item-amount11,header .eight8-cart-item .item-amount12,header .nine9-cart-item .item-amount1,header .nine9-cart-item .item-amount2,header .nine9-cart-item .item-amount3,header .nine9-cart-item .item-amount4,header .nine9-cart-item .item-amount5,header .nine9-cart-item .item-amount6,header .nine9-cart-item .item-amount7,header .nine9-cart-item .item-amount8,header .nine9-cart-item .item-amount9,header .nine9-cart-item .item-amount10,header .nine9-cart-item .item-amount11,header .nine9-cart-item .item-amount12,header .ten10-cart-item .item-amount1,header .ten10-cart-item .item-amount2,header .ten10-cart-item .item-amount3,header .ten10-cart-item .item-amount4,header .ten10-cart-item .item-amount5,header .ten10-cart-item .item-amount6,header .ten10-cart-item .item-amount7,header .ten10-cart-item .item-amount8,header .ten10-cart-item .item-amount9,header .ten10-cart-item .item-amount10,header .ten10-cart-item .item-amount11,header .ten10-cart-item .item-amount12,header .eleven11-cart-item .item-amount1,header .eleven11-cart-item .item-amount2,header .eleven11-cart-item .item-amount3,header .eleven11-cart-item .item-amount4,header .eleven11-cart-item .item-amount5,header .eleven11-cart-item .item-amount6,header .eleven11-cart-item .item-amount7,header .eleven11-cart-item .item-amount8,header .eleven11-cart-item .item-amount9,header .eleven11-cart-item .item-amount10,header .eleven11-cart-item .item-amount11,header .eleven11-cart-item .item-amount12,header .twelve12-cart-item .item-amount1,header .twelve12-cart-item .item-amount2,header .twelve12-cart-item .item-amount3,header .twelve12-cart-item .item-amount4,header .twelve12-cart-item .item-amount5,header .twelve12-cart-item .item-amount6,header .twelve12-cart-item .item-amount7,header .twelve12-cart-item .item-amount8,header .twelve12-cart-item .item-amount9,header .twelve12-cart-item .item-amount10,header .twelve12-cart-item .item-amount11,header .twelve12-cart-item .item-amount12 {
-    text-align: center
-}
-
-header .one1-cart-item .remove-item-1,header .one1-cart-item .remove-item-2,header .one1-cart-item .remove-item-3,header .one1-cart-item .remove-item-4,header .one1-cart-item .remove-item-5,header .one1-cart-item .remove-item-6,header .one1-cart-item .remove-item-7,header .one1-cart-item .remove-item-8,header .one1-cart-item .remove-item-9,header .one1-cart-item .remove-item-10,header .one1-cart-item .remove-item-11,header .one1-cart-item .remove-item-12,header .two2-cart-item .remove-item-1,header .two2-cart-item .remove-item-2,header .two2-cart-item .remove-item-3,header .two2-cart-item .remove-item-4,header .two2-cart-item .remove-item-5,header .two2-cart-item .remove-item-6,header .two2-cart-item .remove-item-7,header .two2-cart-item .remove-item-8,header .two2-cart-item .remove-item-9,header .two2-cart-item .remove-item-10,header .two2-cart-item .remove-item-11,header .two2-cart-item .remove-item-12,header .three3-cart-item .remove-item-1,header .three3-cart-item .remove-item-2,header .three3-cart-item .remove-item-3,header .three3-cart-item .remove-item-4,header .three3-cart-item .remove-item-5,header .three3-cart-item .remove-item-6,header .three3-cart-item .remove-item-7,header .three3-cart-item .remove-item-8,header .three3-cart-item .remove-item-9,header .three3-cart-item .remove-item-10,header .three3-cart-item .remove-item-11,header .three3-cart-item .remove-item-12,header .four4-cart-item .remove-item-1,header .four4-cart-item .remove-item-2,header .four4-cart-item .remove-item-3,header .four4-cart-item .remove-item-4,header .four4-cart-item .remove-item-5,header .four4-cart-item .remove-item-6,header .four4-cart-item .remove-item-7,header .four4-cart-item .remove-item-8,header .four4-cart-item .remove-item-9,header .four4-cart-item .remove-item-10,header .four4-cart-item .remove-item-11,header .four4-cart-item .remove-item-12,header .five5-cart-item .remove-item-1,header .five5-cart-item .remove-item-2,header .five5-cart-item .remove-item-3,header .five5-cart-item .remove-item-4,header .five5-cart-item .remove-item-5,header .five5-cart-item .remove-item-6,header .five5-cart-item .remove-item-7,header .five5-cart-item .remove-item-8,header .five5-cart-item .remove-item-9,header .five5-cart-item .remove-item-10,header .five5-cart-item .remove-item-11,header .five5-cart-item .remove-item-12,header .six6-cart-item .remove-item-1,header .six6-cart-item .remove-item-2,header .six6-cart-item .remove-item-3,header .six6-cart-item .remove-item-4,header .six6-cart-item .remove-item-5,header .six6-cart-item .remove-item-6,header .six6-cart-item .remove-item-7,header .six6-cart-item .remove-item-8,header .six6-cart-item .remove-item-9,header .six6-cart-item .remove-item-10,header .six6-cart-item .remove-item-11,header .six6-cart-item .remove-item-12,header .seven7-cart-item .remove-item-1,header .seven7-cart-item .remove-item-2,header .seven7-cart-item .remove-item-3,header .seven7-cart-item .remove-item-4,header .seven7-cart-item .remove-item-5,header .seven7-cart-item .remove-item-6,header .seven7-cart-item .remove-item-7,header .seven7-cart-item .remove-item-8,header .seven7-cart-item .remove-item-9,header .seven7-cart-item .remove-item-10,header .seven7-cart-item .remove-item-11,header .seven7-cart-item .remove-item-12,header .eight8-cart-item .remove-item-1,header .eight8-cart-item .remove-item-2,header .eight8-cart-item .remove-item-3,header .eight8-cart-item .remove-item-4,header .eight8-cart-item .remove-item-5,header .eight8-cart-item .remove-item-6,header .eight8-cart-item .remove-item-7,header .eight8-cart-item .remove-item-8,header .eight8-cart-item .remove-item-9,header .eight8-cart-item .remove-item-10,header .eight8-cart-item .remove-item-11,header .eight8-cart-item .remove-item-12,header .nine9-cart-item .remove-item-1,header .nine9-cart-item .remove-item-2,header .nine9-cart-item .remove-item-3,header .nine9-cart-item .remove-item-4,header .nine9-cart-item .remove-item-5,header .nine9-cart-item .remove-item-6,header .nine9-cart-item .remove-item-7,header .nine9-cart-item .remove-item-8,header .nine9-cart-item .remove-item-9,header .nine9-cart-item .remove-item-10,header .nine9-cart-item .remove-item-11,header .nine9-cart-item .remove-item-12,header .ten10-cart-item .remove-item-1,header .ten10-cart-item .remove-item-2,header .ten10-cart-item .remove-item-3,header .ten10-cart-item .remove-item-4,header .ten10-cart-item .remove-item-5,header .ten10-cart-item .remove-item-6,header .ten10-cart-item .remove-item-7,header .ten10-cart-item .remove-item-8,header .ten10-cart-item .remove-item-9,header .ten10-cart-item .remove-item-10,header .ten10-cart-item .remove-item-11,header .ten10-cart-item .remove-item-12,header .eleven11-cart-item .remove-item-1,header .eleven11-cart-item .remove-item-2,header .eleven11-cart-item .remove-item-3,header .eleven11-cart-item .remove-item-4,header .eleven11-cart-item .remove-item-5,header .eleven11-cart-item .remove-item-6,header .eleven11-cart-item .remove-item-7,header .eleven11-cart-item .remove-item-8,header .eleven11-cart-item .remove-item-9,header .eleven11-cart-item .remove-item-10,header .eleven11-cart-item .remove-item-11,header .eleven11-cart-item .remove-item-12,header .twelve12-cart-item .remove-item-1,header .twelve12-cart-item .remove-item-2,header .twelve12-cart-item .remove-item-3,header .twelve12-cart-item .remove-item-4,header .twelve12-cart-item .remove-item-5,header .twelve12-cart-item .remove-item-6,header .twelve12-cart-item .remove-item-7,header .twelve12-cart-item .remove-item-8,header .twelve12-cart-item .remove-item-9,header .twelve12-cart-item .remove-item-10,header .twelve12-cart-item .remove-item-11,header .twelve12-cart-item .remove-item-12 {
-    color: grey;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out
-}
-
-
-
-header .one__view-overlay,header .two__view-overlay,header .three__view-overlay,header .four__view-overlay,header .five__view-overlay,header .six__view-overlay,header .seven__view-overlay,header .eight__view-overlay,header .nine__view-overlay,header .ten__view-overlay,header .eleven__view-overlay,header .twelve__view-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: all 0.5s ease-in-out;
-    background: rgba(112,112,112,0.5);
-    z-index: 4;
-    visibility: hidden
-}
-
-header .one__view,header .two__view,header .three__view,header .four__view,header .five__view,header .six__view,header .seven__view,header .eight__view,header .nine__view,header .ten__view,header .eleven__view,header .twelve__view {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    overflow: auto;
-    z-index: 5;
-    background: #151515;
-    padding: 1.5rem;
-    transition: all 0.5s ease-in-out;
-    border: 2px groove #707070;
-    transform: translateX(-100%);
-    text-align: center;
-    font-family: "Baloo 2", cursive;
-    color: #e0e0e0
-}
-
-header .one__transparentBcg,header .two__transparentBcg,header .three__transparentBcg,header .four__transparentBcg,header .five__transparentBcg,header .six__transparentBcg,header .seven__transparentBcg,header .eight__transparentBcg,header .nine__transparentBcg,header .ten__transparentBcg,header .eleven__transparentBcg,header .twelve__transparentBcg {
-    visibility: visible
-}
-
-header .one__showview,header .two__showview,header .three__showview,header .four__showview,header .five__showview,header .six__showview,header .seven__showview,header .eight__showview,header .nine__showview,header .ten__showview,header .eleven__showview,header .twelve__showview {
-    transform: translateX(0)
-}
 
 header img {
     width: 300px;
